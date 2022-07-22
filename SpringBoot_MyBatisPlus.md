@@ -321,6 +321,14 @@ $\Rarr$@ConfigurationProperties
   - <u>主启动类 Application 实现 CommandLineRunner 接口</u>
   - 实现其中的 **run 方法**
 
+#### (九) 日志
+
+通过`LoggerFactory`获取，直接作为类的属性即可
+
+```java
+private final Logger logger = LoggerFactory.getLogger(ImageManager.class);
+```
+
 ---
 
 ### 三、SpringBoot和web组件
